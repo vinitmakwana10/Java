@@ -1,4 +1,4 @@
-class student
+public class student
 {
 	int rollno;
 	void getNumber(int n)
@@ -30,7 +30,7 @@ interface sports
 	float sportwt=6.0f;
 	void putwt();
 }
-class Result extends test implements sports
+public class Result extends test implements sports
 {
 	float total;
 	public void putwt()
