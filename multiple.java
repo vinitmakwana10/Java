@@ -46,7 +46,7 @@ class Result extends test implements sports
 	   System.out.println("total="+total);
 	}
 }
-class multiple
+public class multiple
 {
 	public static void main(String args[])
 	{
