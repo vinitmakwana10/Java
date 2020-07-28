@@ -6,33 +6,28 @@ class arithematic
    	   a=x;
 	   b=y;
 	}
-
 	void add()
 	{
 	  int s=a+b;
 	  System.out.println("Addition:"+s);
 	}
-
 	void sub()
 	{
 	  int p=a-b;
 	  System.out.println("subtraction is:"+p);
 	}
-
 	void mul()
 	{
 	  int m=a*b;
 	  System.out.println("multiplication is:"+m);
 	}
-	
-	void div()
+		void div()
 	{
 	  int d=a/b;
 	  System.out.println("division is:"+d);
 	}
-
 }
-class calculator 
+public class calculator 
 {
 	public static void main(String args[])
 	{
@@ -43,7 +38,4 @@ class calculator
               a1.mul();
               a1.div();
 	}
-}
-
-
-	
+}	
