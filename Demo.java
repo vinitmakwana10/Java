@@ -30,7 +30,7 @@ class exam extends Student
 	   System.out.println("Marks:"+marks);
 	}
 }
-class Demo
+public class Demo
 {
 	public static void main(String args[])
 	{
