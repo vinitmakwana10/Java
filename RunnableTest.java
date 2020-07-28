@@ -10,7 +10,7 @@ class X implements Runnable
 	     System.out.println("End of ThreadX");
          }
 }
-class RunnableTest
+public class RunnableTest
 {
 	public static void main(String args[])
 	{
