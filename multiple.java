@@ -15,7 +15,7 @@ class student
 	   System.out.println("Rollno:"+rollno);
 	}
 }
-class test extends student
+public class test extends student
 {
 	float sem1,sem2;
 	void getMarks(float m1,float m2)
@@ -30,7 +30,7 @@ class test extends student
 	   System.out.println("Sem2 marks:"+sem2);
 	}
 }
-class Result extends test implements sports
+public class Result extends test implements sports
 {
 	float total;
 	public void putwt()
