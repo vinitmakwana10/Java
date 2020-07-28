@@ -32,7 +32,7 @@ class C extends Thread
 	       System.out.println("Exit from C");
 	}
 }
-class ThreadTest
+public class ThreadTest
 {
 	public static void main(String args[])
 	{
