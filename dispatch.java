@@ -19,7 +19,7 @@ class C extends A
 	  System.out.println("Inside C's callme");
 	}
 }
-class dispatch
+public class dispatch
 {
 	public static void main(String args[])
 	{
