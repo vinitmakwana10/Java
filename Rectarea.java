@@ -12,7 +12,7 @@ class Rectangle
 	   return a;
 	}
 }
-class Rectarea
+public class Rectarea
 {
 	public static void main(String args[])
 	{
