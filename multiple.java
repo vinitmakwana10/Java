@@ -1,9 +1,9 @@
-interface sports
+public interface sports
 {
 	float sportwt=6.0f;
 	void putwt();
 }
-class student
+public class student
 {
 	int rollno;
 	void getNumber(int n)
