@@ -1,3 +1,8 @@
+interface sports
+{
+	float sportwt=6.0f;
+	void putwt();
+}
 class student
 {
 	int rollno;
@@ -24,11 +29,6 @@ class test extends student
 	   System.out.println("Sem1 marks:"+sem1);
 	   System.out.println("Sem2 marks:"+sem2);
 	}
-}
-interface sports
-{
-	float sportwt=6.0f;
-	void putwt();
 }
 class Result extends test implements sports
 {
