@@ -17,7 +17,7 @@ class circle implements Area
 	   return(pi*x*x);
 	}
 }
-class interfacetest
+public class interfacetest
 {
 	public static void main(String args[])
 	{
