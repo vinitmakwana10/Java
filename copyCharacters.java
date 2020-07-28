@@ -29,7 +29,10 @@ class copyCharacters
  			ins.close();
 			outs.close();
 		}
-	  catch(IOException e){ }
+	  catch(IOException e)
+	  {
+	  System.out.println(e);
+	  }
        }
     }
 }
